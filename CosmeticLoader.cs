@@ -60,15 +60,17 @@ namespace CapuchinCosmetics
             cosmetic.name = meta.name;
             if (meta.syncToLeftHand)
             {
-                cosmetic.transform.SetParent(Player.Instance.leftIkTarget.transform, false);
+                cosmetic.transform.SetParent(Player.Instance.LeftHand.transform, false);
+                cosmetic.transform.localPosition = Vector3.zero;
+                cosmetic.transform.localRotation = Quaternion.identity;
             }
             else if (meta.syncToRightHand)
             {
-                cosmetic.transform.SetParent(Player.Instance.rightIkTarget.transform, false);
+                cosmetic.transform.SetParent(Player.Instance.RightHand.transform, false);
             }
             else
             {
-                cosmetic.transform.SetParent(Player.Instance.playerRigidbody.gameObject.transform, false);
+                cosmetic.transform.SetParent(Player.Instance.playerCam.gameObject.transform, false);
             }
 
             var cosmeticRenderer = cosmetic.GetComponent<Renderer>();
