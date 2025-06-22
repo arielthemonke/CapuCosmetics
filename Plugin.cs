@@ -75,24 +75,6 @@ namespace CapuchinCosmetics
                 CosmeticLoader.LoadCosmetic(capucosmetic);
             }
         }
-
-        private void OnGUI()
-        {
-            foreach (var cosmeticThing in CosmeticLoader.Cosmetics)
-            {
-                if (GUILayout.Button(cosmeticThing.CosmeticMeta.name))
-                {
-                    if (cosmeticThing.CosmeticObj.active)
-                    {
-                        cosmeticThing.CosmeticObj.SetActive(false);
-                    }
-                    else
-                    {
-                        cosmeticThing.CosmeticObj.SetActive(true);
-                    }
-                }
-            }
-        }
     }
 
     public class CustomCosmetic

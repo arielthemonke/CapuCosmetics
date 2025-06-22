@@ -94,16 +94,6 @@ namespace CapuchinCosmetics
             displaySlots[2].SetParent(HeadStands.transform, false);
             displaySlots[2].localPosition = new Vector3(-0.0332f, 0.358f, -0.3561f);
             displaySlots[2].localRotation = DynamicParent3.transform.localRotation;
-            
-            foreach (var button in enabledisablearray)
-            {
-                GameObject newBtn = Instantiate(button);
-                newBtn.AddComponent<CustomEnableDisable>();
-                newBtn.GetComponent<DynamicCosmeticsButton>().enabled = false;
-                newBtn.GetComponent<BirbButton>().enabled = false;
-                newEnableDisable.Add(newBtn);
-                newBtn.SetActive(false);
-            }
         }
         
         public static void DisplayCosmetics()
@@ -112,7 +102,7 @@ namespace CapuchinCosmetics
             {
                 if (displayedCosmetics[i] != null)
                 {
-                    GameObject.Destroy(displayedCosmetics[i]);
+                    Destroy(displayedCosmetics[i]);
                 }
 
                 int cosmeticIndex = currentPage * 3 + i;
@@ -124,7 +114,8 @@ namespace CapuchinCosmetics
                     GameObject preview = Instantiate(cosmetic.CosmeticObj, displaySlots[i]);
                     preview.transform.localPosition = Vector3.zero;
                     preview.transform.localRotation = Quaternion.identity;
-                    preview.transform.localScale = Vector3.one * 0.25f;
+                    preview.transform.localScale = Vector3.one * 0.2f;
+                    preview.AddComponent<CustomEnableDisable>().toEnable = cosmetic;
                     preview.SetActive(true);
 
                     foreach (var collider in preview.GetComponentsInChildren<Collider>())
