@@ -37,6 +37,9 @@ namespace CapuchinCosmetics
             ClassInjector.RegisterTypeInIl2Cpp<ButtonHandler>();
             ClassInjector.RegisterTypeInIl2Cpp<CustomEnableDisable>();
             ClassInjector.RegisterTypeInIl2Cpp<CustomPageSwitch>();
+            ClassInjector.RegisterTypeInIl2Cpp<ShopWardrobeHandler>();
+            ClassInjector.RegisterTypeInIl2Cpp<ShopButtonHandler>();
+            ClassInjector.RegisterTypeInIl2Cpp<CustomPageSwitchShop>();
             AddComponent<Plugin>();
         }
 
@@ -61,6 +64,7 @@ namespace CapuchinCosmetics
         {
             LoadCosmetics();
             WardrobeHandler.Init();
+            ShopWardrobeHandler.Init();
         }
 
         void LoadCosmetics()
