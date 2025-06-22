@@ -112,6 +112,9 @@
         <Reference Include="Unity.InputSystem">
             <HintPath>$(GameAssemblyPath)\Unity.InputSystem.dll</HintPath>
         </Reference>
+        <Reference Include="Unity.TextMeshPro">
+          <HintPath>..\..\..\..\Program Files\Steam\steamapps\common\Capuchin\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine">
             <HintPath>$(GameAssemblyPath)\UnityEngine.dll</HintPath>
         </Reference>

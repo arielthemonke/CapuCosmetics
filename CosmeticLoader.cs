@@ -10,7 +10,7 @@ namespace CapuchinCosmetics
 {
     public class CosmeticLoader : MonoBehaviour
     {
-        public static Dictionary<GameObject, CapuCosmeticsMetadata> LoadedCosmetics = new Dictionary<GameObject, CapuCosmeticsMetadata>();
+        public static List<CustomCosmetic> Cosmetics = new List<CustomCosmetic>();
         public static void LoadCosmetic(string filePath)
         {
             string extractPath = Path.Combine(Path.GetTempPath(), "Capushirt_TWMP");
@@ -88,8 +88,13 @@ namespace CapuchinCosmetics
             {
                 col.enabled = false;
             }
-            
-            LoadedCosmetics.Add(cosmetic, meta);
+
+            CustomCosmetic ThisCosmetic = new CustomCosmetic
+            {
+                CosmeticObj = cosmetic,
+                CosmeticMeta = meta,
+            };
+            Cosmetics.Add(ThisCosmetic);
             cosmetic.SetActive(false);
             bundle.Unload(false);
         }

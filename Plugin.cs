@@ -33,6 +33,10 @@ namespace CapuchinCosmetics
             // If you don't do this, your MonoBehaviour will not be recognized by the game.
 
             ClassInjector.RegisterTypeInIl2Cpp<CosmeticLoader>();
+            ClassInjector.RegisterTypeInIl2Cpp<WardrobeHandler>();
+            ClassInjector.RegisterTypeInIl2Cpp<ButtonHandler>();
+            ClassInjector.RegisterTypeInIl2Cpp<CustomEnableDisable>();
+            ClassInjector.RegisterTypeInIl2Cpp<CustomPageSwitch>();
             AddComponent<Plugin>();
         }
 
@@ -56,6 +60,7 @@ namespace CapuchinCosmetics
         void Init()
         {
             LoadCosmetics();
+            WardrobeHandler.Init();
         }
 
         void LoadCosmetics()
@@ -73,20 +78,26 @@ namespace CapuchinCosmetics
 
         private void OnGUI()
         {
-            foreach (var cosmeticThing in CosmeticLoader.LoadedCosmetics)
+            foreach (var cosmeticThing in CosmeticLoader.Cosmetics)
             {
-                if (GUILayout.Button(cosmeticThing.Value.name))
+                if (GUILayout.Button(cosmeticThing.CosmeticMeta.name))
                 {
-                    if (cosmeticThing.Key.active)
+                    if (cosmeticThing.CosmeticObj.active)
                     {
-                        cosmeticThing.Key.SetActive(false);
+                        cosmeticThing.CosmeticObj.SetActive(false);
                     }
                     else
                     {
-                        cosmeticThing.Key.SetActive(true);
+                        cosmeticThing.CosmeticObj.SetActive(true);
                     }
                 }
             }
         }
+    }
+
+    public class CustomCosmetic
+    {
+        public GameObject CosmeticObj;
+        public CapuCosmeticsMetadata CosmeticMeta;
     }
 }
