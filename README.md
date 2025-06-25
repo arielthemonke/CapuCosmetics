@@ -1,5 +1,6 @@
 # CapuCosmetics
-A mod for "Capuchin" that allows users to load custom cosmetics into the game!
+A mod for "Capuchin" that allows users to load custom cosmetics into the game!</br>
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/arielthemonke/CapuCosmetics/total)
 
 ## Dependencies
 * [BepInEx6](https://github.com/BepInEx/BepInEx/releases/download/v6.0.0-pre.2/BepInEx-Unity.IL2CPP-win-x64-6.0.0-pre.2.zip)
