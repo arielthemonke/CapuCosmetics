@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project>
 	<PropertyGroup>
-		<GamePath>/media/ariel/Ariel/SteamLibrary/steamapps/common/Capuchin</GamePath>
-		<GameAssemblyPath>$(GamePath)/BepInEx/interop</GameAssemblyPath>
-		<BepInExAssemblyPath>$(GamePath)/BepInEx/core</BepInExAssemblyPath>
-		<PluginsPath>$(GamePath)/BepInEx/plugins</PluginsPath>
+		<GamePath>\Program Files (x86)\Steam\steamapps\common\Capuchin</GamePath>
+		<GameAssemblyPath>$(GamePath)/MelonLoader/Il2CppAssemblies</GameAssemblyPath>
+		<BepInExAssemblyPath>$(GamePath)/MelonLoader/net6</BepInExAssemblyPath>
+		<PluginsPath>$(GamePath)/Mods</PluginsPath>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(CI)'=='TRUE'">
 		<GameAssemblyPath>.\Libs</GameAssemblyPath>

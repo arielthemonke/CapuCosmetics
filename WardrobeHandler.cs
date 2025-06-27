@@ -1,7 +1,7 @@
 ﻿using System;
-using Caputilla.Utils;
+using CaputillaMelonLoader.Utils;
 using Il2CppSystem.Collections.Generic;
-using TMPro;
+using Il2CppTMPro;
 using UnityEngine;
 
 namespace CapuchinCosmetics

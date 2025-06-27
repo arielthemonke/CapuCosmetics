@@ -2,7 +2,7 @@
 using System.IO;
 using System.IO.Compression;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
-using Locomotion;
+using Il2CppLocomotion;
 using Newtonsoft.Json;
 using UnityEngine;
 

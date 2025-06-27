@@ -10,584 +10,662 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="0Harmony">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\0Harmony.dll</HintPath>
-      </Reference>
       <Reference Include="AsmResolver">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\AsmResolver.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\AsmResolver.dll</HintPath>
       </Reference>
       <Reference Include="AsmResolver.DotNet">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\AsmResolver.DotNet.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\AsmResolver.DotNet.dll</HintPath>
       </Reference>
       <Reference Include="AsmResolver.PE">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\AsmResolver.PE.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\AsmResolver.PE.dll</HintPath>
       </Reference>
       <Reference Include="AsmResolver.PE.File">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\AsmResolver.PE.File.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\AsmResolver.PE.File.dll</HintPath>
       </Reference>
       <Reference Include="Assembly-CSharp">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
       </Reference>
       <Reference Include="Assembly-CSharp-firstpass">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Assembly-CSharp-firstpass.dll</HintPath>
-      </Reference>
-      <Reference Include="AssetRipper.CIL">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\AssetRipper.CIL.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Assembly-CSharp-firstpass.dll</HintPath>
       </Reference>
       <Reference Include="AssetRipper.Primitives">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\AssetRipper.Primitives.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\AssetRipper.Primitives.dll</HintPath>
       </Reference>
-      <Reference Include="AssistantCoreSDKRuntime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\AssistantCoreSDKRuntime.dll</HintPath>
+      <Reference Include="AssetsTools.NET">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\AssetsTools.NET.dll</HintPath>
       </Reference>
-      <Reference Include="BakeryRuntimeAssembly">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\BakeryRuntimeAssembly.dll</HintPath>
+      <Reference Include="bHapticsLib">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\bHapticsLib.dll</HintPath>
       </Reference>
-      <Reference Include="BepInEx.Core">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\BepInEx.Core.dll</HintPath>
-      </Reference>
-      <Reference Include="BepInEx.Preloader.Core">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\BepInEx.Preloader.Core.dll</HintPath>
-      </Reference>
-      <Reference Include="BepInEx.Unity.Common">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\BepInEx.Unity.Common.dll</HintPath>
-      </Reference>
-      <Reference Include="BepInEx.Unity.IL2CPP">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
-      </Reference>
-      <Reference Include="Caputilla">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\plugins\Caputilla.dll</HintPath>
-      </Reference>
-      <Reference Include="Cebinae">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Cebinae.dll</HintPath>
-      </Reference>
-      <Reference Include="Cinemachine">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Cinemachine.dll</HintPath>
-      </Reference>
-      <Reference Include="com.rlabrecque.steamworks.net">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\com.rlabrecque.steamworks.net.dll</HintPath>
-      </Reference>
-      <Reference Include="Cpp2IL.Core">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Cpp2IL.Core.dll</HintPath>
-      </Reference>
-      <Reference Include="Cyanilux.BlitRenderFeature">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Cyanilux.BlitRenderFeature.dll</HintPath>
-      </Reference>
-      <Reference Include="Disarm">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Disarm.dll</HintPath>
-      </Reference>
-      <Reference Include="DissonanceVoip">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\DissonanceVoip.dll</HintPath>
-      </Reference>
-      <Reference Include="Facebook.Wit.Dictation">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Facebook.Wit.Dictation.dll</HintPath>
-      </Reference>
-      <Reference Include="Fusion.Addressables">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Fusion.Addressables.dll</HintPath>
-      </Reference>
-      <Reference Include="Fusion.Common">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Fusion.Common.dll</HintPath>
-      </Reference>
-      <Reference Include="Fusion.Realtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Fusion.Realtime.dll</HintPath>
-      </Reference>
-      <Reference Include="Fusion.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Fusion.Runtime.dll</HintPath>
-      </Reference>
-      <Reference Include="Fusion.Sockets">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Fusion.Sockets.dll</HintPath>
-      </Reference>
-      <Reference Include="Gee.External.Capstone">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Gee.External.Capstone.dll</HintPath>
+      <Reference Include="CaputillaMelonLoader">
+        <HintPath>..\plugins\Caputilla(MelonLoader)\CaputillaMelonLoader.dll</HintPath>
       </Reference>
       <Reference Include="Iced">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Iced.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Iced.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppAssistantCoreSDKRuntime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppAssistantCoreSDKRuntime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppBakeryRuntimeAssembly">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppBakeryRuntimeAssembly.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppCebinae">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppCebinae.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppCinemachine">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppCinemachine.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppcom.rlabrecque.steamworks.net">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2Cppcom.rlabrecque.steamworks.net.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppCyanilux.BlitRenderFeature">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppCyanilux.BlitRenderFeature.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppDissonanceVoip">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppDissonanceVoip.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppFacebook.Wit.Dictation">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppFacebook.Wit.Dictation.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppFusion.Addressables">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppFusion.Addressables.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppFusion.Common">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppFusion.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppFusion.Realtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppFusion.Realtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppFusion.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppFusion.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppFusion.Sockets">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppFusion.Sockets.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.Common">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Il2CppInterop.Common.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Il2CppInterop.Common.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.Generator">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Il2CppInterop.Generator.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Il2CppInterop.Generator.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.HarmonySupport">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Il2CppInterop.HarmonySupport.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Il2CppInterop.HarmonySupport.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppLIV.LCK">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppLIV.LCK.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppLIV.NativeAudioBridge">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppLIV.NativeAudioBridge.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppLMNL.QuestCam.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppLMNL.QuestCam.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeshBakerCore">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeshBakerCore.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Hub.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Hub.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.BuiltInTimer">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.BuiltInTimer.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.Chess">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.Chess.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.Dictation">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.Dictation.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.LightTraits">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.LightTraits.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.LiveUnderstanding">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.LiveUnderstanding.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.Shapes">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.Shapes.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.ShapesConduit">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.ShapesConduit.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.Voice.Samples.TTSVoices">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.Voice.Samples.TTSVoices.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.VoiceSDK.Mic.Common">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.VoiceSDK.Mic.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.VoiceSDK.Mic.Other">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.VoiceSDK.Mic.Other.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.WitAi">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.WitAi.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.WitAi.Conduit">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.WitAi.Conduit.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.WitAi.Lib">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.WitAi.Lib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.WitAi.TTS">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.WitAi.TTS.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMeta.XR.BuildingBlocks">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMeta.XR.BuildingBlocks.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMirrorsAndReflections">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMirrorsAndReflections.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppMono.Security">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppMono.Security.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppMono.Security.dll</HintPath>
       </Reference>
       <Reference Include="Il2Cppmscorlib">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppNanoSockets">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppNanoSockets.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppNativeGallery">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppNativeGallery.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppNativeGallery.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppNativeGallery.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppNewtonsoft.Json">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppNewtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.AudioManager">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.AudioManager.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.Interaction">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.Interaction.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.Interaction.OVR">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.Interaction.OVR.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.Interaction.OVR.Samples">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.Interaction.OVR.Samples.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.LipSync">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.LipSync.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.Platform">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.Platform.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.Spatializer">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.Spatializer.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppOculus.VR">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppOculus.VR.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhoton3Unity3D">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhoton3Unity3D.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonChat">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonChat.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonRealtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonRealtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonUnityNetworking">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonUnityNetworking.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonUnityNetworking.Utilities">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonUnityNetworking.Utilities.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonVoice">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonVoice.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonVoice.API">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonVoice.API.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonVoice.Fusion">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonVoice.Fusion.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPhotonVoice.PUN">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPhotonVoice.PUN.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppPlayFab">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppPlayFab.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSonicBloom.Koreo">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSonicBloom.Koreo.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppSystem.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Configuration">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppSystem.Configuration.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Configuration.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Core">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Data">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Data.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Globalization">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppSystem.Globalization.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Globalization.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Net.Http">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Net.Http.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Numerics">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppSystem.Numerics.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Numerics.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Runtime.Serialization">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Runtime.Serialization.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Xml">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Il2CppSystem.Xml.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.dll</HintPath>
       </Reference>
-      <Reference Include="LibCpp2IL">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\LibCpp2IL.dll</HintPath>
+      <Reference Include="Il2CppSystem.Xml.Linq">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppSystem.Xml.Linq.dll</HintPath>
       </Reference>
-      <Reference Include="LMNL.QuestCam.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\LMNL.QuestCam.Runtime.dll</HintPath>
+      <Reference Include="Il2CppTayx.Graphy">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppTayx.Graphy.dll</HintPath>
       </Reference>
-      <Reference Include="MeshBakerCore">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\MeshBakerCore.dll</HintPath>
+      <Reference Include="Il2CppVoiceSDK.Dictation.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppVoiceSDK.Dictation.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Hub.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Hub.Runtime.dll</HintPath>
+      <Reference Include="Il2CppVoiceSDK.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2CppVoiceSDK.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.BuiltInTimer">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.BuiltInTimer.dll</HintPath>
+      <Reference Include="Il2Cppwebsocket-sharp">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2Cppwebsocket-sharp.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.Chess">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.Chess.dll</HintPath>
+      <Reference Include="Il2Cpp__Generated">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Il2Cpp__Generated.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.Dictation">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.Dictation.dll</HintPath>
+      <Reference Include="IndexRange">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\IndexRange.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.LightTraits">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.LightTraits.dll</HintPath>
+      <Reference Include="MelonLoader">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MelonLoader.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.LiveUnderstanding">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.LiveUnderstanding.dll</HintPath>
+      <Reference Include="MelonLoader.NativeHost">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MelonLoader.NativeHost.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.Shapes">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.Shapes.dll</HintPath>
+      <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.ShapesConduit">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.ShapesConduit.dll</HintPath>
+      <Reference Include="Microsoft.Diagnostics.NETCore.Client">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Diagnostics.NETCore.Client.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.Voice.Samples.TTSVoices">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.Voice.Samples.TTSVoices.dll</HintPath>
+      <Reference Include="Microsoft.Diagnostics.Runtime">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Diagnostics.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.VoiceSDK.Mic.Common">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.VoiceSDK.Mic.Common.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Configuration">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Configuration.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.VoiceSDK.Mic.Other">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.VoiceSDK.Mic.Other.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.WitAi">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.WitAi.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Configuration.Binder">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.WitAi.Conduit">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.WitAi.Conduit.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.WitAi.Lib">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.WitAi.Lib.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Logging">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Logging.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.WitAi.TTS">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.WitAi.TTS.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
       </Reference>
-      <Reference Include="Meta.XR.BuildingBlocks">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Meta.XR.BuildingBlocks.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Options">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Options.dll</HintPath>
       </Reference>
-      <Reference Include="MirrorsAndReflections">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\MirrorsAndReflections.dll</HintPath>
+      <Reference Include="Microsoft.Extensions.Primitives">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Microsoft.Extensions.Primitives.dll</HintPath>
       </Reference>
       <Reference Include="Mono.Cecil">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Mono.Cecil.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Mono.Cecil.dll</HintPath>
       </Reference>
       <Reference Include="Mono.Cecil.Mdb">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Mono.Cecil.Mdb.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Mono.Cecil.Mdb.dll</HintPath>
       </Reference>
       <Reference Include="Mono.Cecil.Pdb">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Mono.Cecil.Pdb.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Mono.Cecil.Pdb.dll</HintPath>
       </Reference>
       <Reference Include="Mono.Cecil.Rocks">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\Mono.Cecil.Rocks.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Mono.Cecil.Rocks.dll</HintPath>
+      </Reference>
+      <Reference Include="MonoMod">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MonoMod.dll</HintPath>
+      </Reference>
+      <Reference Include="MonoMod.Backports">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MonoMod.Backports.dll</HintPath>
+      </Reference>
+      <Reference Include="MonoMod.ILHelpers">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MonoMod.ILHelpers.dll</HintPath>
       </Reference>
       <Reference Include="MonoMod.RuntimeDetour">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\MonoMod.RuntimeDetour.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MonoMod.RuntimeDetour.dll</HintPath>
       </Reference>
       <Reference Include="MonoMod.Utils">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\MonoMod.Utils.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\MonoMod.Utils.dll</HintPath>
       </Reference>
-      <Reference Include="NanoSockets">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\NanoSockets.dll</HintPath>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin\MelonLoader\net35\Newtonsoft.Json.dll</HintPath>
       </Reference>
-      <Reference Include="NativeGallery.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\NativeGallery.Runtime.dll</HintPath>
+      <Reference Include="System.Configuration">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Dependencies\NetStandardPatches\System.Configuration.dll</HintPath>
       </Reference>
-      <Reference Include="Oculus.AudioManager">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.AudioManager.dll</HintPath>
+      <Reference Include="System.Configuration.ConfigurationManager">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\System.Configuration.ConfigurationManager.dll</HintPath>
       </Reference>
-      <Reference Include="Oculus.Interaction">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.Interaction.dll</HintPath>
+      <Reference Include="System.Security.Cryptography.ProtectedData">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\System.Security.Cryptography.ProtectedData.dll</HintPath>
       </Reference>
-      <Reference Include="Oculus.Interaction.OVR">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.Interaction.OVR.dll</HintPath>
+      <Reference Include="System.Security.Permissions">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\System.Security.Permissions.dll</HintPath>
       </Reference>
-      <Reference Include="Oculus.Interaction.OVR.Samples">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.Interaction.OVR.Samples.dll</HintPath>
+      <Reference Include="System.Windows.Extensions">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\System.Windows.Extensions.dll</HintPath>
       </Reference>
-      <Reference Include="Oculus.LipSync">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.LipSync.dll</HintPath>
-      </Reference>
-      <Reference Include="Oculus.Platform">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.Platform.dll</HintPath>
-      </Reference>
-      <Reference Include="Oculus.Spatializer">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.Spatializer.dll</HintPath>
-      </Reference>
-      <Reference Include="Oculus.VR">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Oculus.VR.dll</HintPath>
-      </Reference>
-      <Reference Include="Photon3Unity3D">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Photon3Unity3D.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonChat">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonChat.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonRealtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonRealtime.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonUnityNetworking">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonUnityNetworking.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonUnityNetworking.Utilities">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonUnityNetworking.Utilities.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonVoice">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonVoice.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonVoice.API">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonVoice.API.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonVoice.Fusion">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonVoice.Fusion.dll</HintPath>
-      </Reference>
-      <Reference Include="PhotonVoice.PUN">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PhotonVoice.PUN.dll</HintPath>
-      </Reference>
-      <Reference Include="PlayFab">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\PlayFab.dll</HintPath>
-      </Reference>
-      <Reference Include="SemanticVersioning">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\SemanticVersioning.dll</HintPath>
-      </Reference>
-      <Reference Include="SonicBloom.Koreo">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\SonicBloom.Koreo.dll</HintPath>
-      </Reference>
-      <Reference Include="StableNameDotNet">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\StableNameDotNet.dll</HintPath>
-      </Reference>
-      <Reference Include="Tayx.Graphy">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Tayx.Graphy.dll</HintPath>
+      <Reference Include="Tomlet">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\Tomlet.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Animation.Rigging">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.Animation.Rigging.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.Animation.Rigging.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Burst">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.Burst.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.Burst.dll</HintPath>
       </Reference>
       <Reference Include="Unity.InputSystem">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.InputSystem.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.InputSystem.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Mathematics">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.Mathematics.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.Mathematics.dll</HintPath>
       </Reference>
       <Reference Include="Unity.PlayerPrefsEditor.Samples.SampleScene">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.PlayerPrefsEditor.Samples.SampleScene.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.PlayerPrefsEditor.Samples.SampleScene.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="Unity.ProBuilder">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.ProBuilder.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.ProBuilder.dll</HintPath>
       </Reference>
       <Reference Include="Unity.ProBuilder.KdTree">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.ProBuilder.KdTree.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.ProBuilder.KdTree.dll</HintPath>
       </Reference>
       <Reference Include="Unity.ProBuilder.Poly2Tri">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.ProBuilder.Poly2Tri.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.ProBuilder.Poly2Tri.dll</HintPath>
       </Reference>
       <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       </Reference>
       <Reference Include="Unity.RenderPipelines.Core.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="Unity.TextMeshPro">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Timeline">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.Timeline.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.Timeline.dll</HintPath>
       </Reference>
       <Reference Include="Unity.VisualEffectGraph.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.ARSubsystems">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.ARSubsystems.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.CoreUtils.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.Interaction.Toolkit.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.Management">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.Management.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.Management.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.Oculus">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.Oculus.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.Oculus.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.OpenXR">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.OpenXR.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.OpenXR.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.OpenXR.Features.MockRuntime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.OpenXR.Features.MockRuntime.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
       </Reference>
       <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\Unity.XR.OpenXR.Features.RuntimeDebugger.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AccessibilityModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.AccessibilityModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.AccessibilityModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AIModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.AIModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.AIModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AndroidJNIModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.AndroidJNIModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.AndroidJNIModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AnimationModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.AnimationModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.AnimationModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ARModule">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\UnityEngine.ARModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AssetBundleModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.AssetBundleModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.AssetBundleModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AudioModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.AudioModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.AudioModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ClothModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ClothModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ClothModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ClusterInputModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ClusterInputModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ClusterInputModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ClusterRendererModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ClusterRendererModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ClusterRendererModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.CoreModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.CrashReportingModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.CrashReportingModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.CrashReportingModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.DirectorModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.DirectorModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.DirectorModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.DSPGraphModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.DSPGraphModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.DSPGraphModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.GameCenterModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.GameCenterModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.GameCenterModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.GIModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.GIModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.GIModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.GridModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.GridModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.GridModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.HotReloadModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.HotReloadModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.HotReloadModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.Il2CppAssetBundleManager">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\UnityEngine.Il2CppAssetBundleManager.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.Il2CppImageConversionManager">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\UnityEngine.Il2CppImageConversionManager.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ImageConversionModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ImageConversionModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ImageConversionModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.IMGUIModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.IMGUIModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.InputLegacyModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.InputLegacyModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.InputModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.InputModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.InputModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.JSONSerializeModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.JSONSerializeModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.JSONSerializeModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.LocalizationModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.LocalizationModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.LocalizationModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ParticleSystemModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ParticleSystemModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ParticleSystemModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.PerformanceReportingModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.PerformanceReportingModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.PerformanceReportingModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.Physics2DModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.Physics2DModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.Physics2DModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.PhysicsModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.PhysicsModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.PhysicsModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ProfilerModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ProfilerModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ProfilerModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ScreenCaptureModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.ScreenCaptureModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.ScreenCaptureModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.SharedInternalsModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.SharedInternalsModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.SharedInternalsModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.SpriteMaskModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.SpriteMaskModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.SpriteMaskModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.SpriteShapeModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.SpriteShapeModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.SpriteShapeModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.StreamingModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.StreamingModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.StreamingModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.SubstanceModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.SubstanceModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.SubstanceModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.SubsystemsModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.SubsystemsModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.SubsystemsModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TerrainModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TerrainModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TerrainModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TerrainPhysicsModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TerrainPhysicsModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TextCoreFontEngineModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TextCoreTextEngineModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TextRenderingModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TextRenderingModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TilemapModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TilemapModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TilemapModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.TLSModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.TLSModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.TLSModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UI">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UIElementsModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UIElementsModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UIElementsModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UIElementsNativeModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UIElementsNativeModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UIElementsNativeModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UIModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UIModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UIModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UmbraModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UmbraModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UmbraModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UNETModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UNETModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UNETModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityAnalyticsModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityAnalyticsModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityConnectModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityConnectModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityConnectModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityCurlModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityCurlModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityCurlModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityTestProtocolModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityTestProtocolModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityWebRequestModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityWebRequestModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityWebRequestModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.VehiclesModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.VehiclesModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.VehiclesModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.VFXModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.VFXModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.VFXModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.VideoModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.VideoModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.VideoModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.VirtualTexturingModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.VirtualTexturingModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.VirtualTexturingModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.VRModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.VRModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.VRModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.WindModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.WindModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.WindModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.XRModule">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\UnityEngine.XRModule.dll</HintPath>
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia (2)\BepInEx\unity-libs\UnityEngine.XRModule.dll</HintPath>
       </Reference>
-      <Reference Include="VoiceSDK.Dictation.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\VoiceSDK.Dictation.Runtime.dll</HintPath>
+      <Reference Include="ValueTupleBridge">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net35\ValueTupleBridge.dll</HintPath>
       </Reference>
-      <Reference Include="VoiceSDK.Runtime">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\VoiceSDK.Runtime.dll</HintPath>
-      </Reference>
-      <Reference Include="WasmDisassembler">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\core\WasmDisassembler.dll</HintPath>
-      </Reference>
-      <Reference Include="websocket-sharp">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\websocket-sharp.dll</HintPath>
-      </Reference>
-      <Reference Include="__Generated">
-        <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Capuchin\BepInEx\interop\__Generated.dll</HintPath>
+      <Reference Include="WebSocketDotNet">
+        <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Capuchin - kopia\MelonLoader\net6\WebSocketDotNet.dll</HintPath>
       </Reference>
     </ItemGroup>
 </Project>
