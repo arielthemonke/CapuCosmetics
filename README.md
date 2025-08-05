@@ -1,3 +1,7 @@
+# NOTE THAT THIS REPO IS NOW ARCHIVED
+I will not be updating CapuCosmetics anymore since Capuchin v3 is now cancelled. the mod still works though i think
+
+
 # CapuCosmetics
 A mod for "Capuchin" that allows users to load custom cosmetics into the game!</br>
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/arielthemonke/CapuCosmetics/total)
